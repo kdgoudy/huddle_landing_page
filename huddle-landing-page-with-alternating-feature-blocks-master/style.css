@@ -89,13 +89,15 @@
 .grow,
 .flowing,
 .users {
-    margin: 50px;
+    margin: 80px;
 }
 
 .grow h3,
 .flowing h3,
 .users h3 {
     font-family: 'Poppins', sans-serif;
+    margin-top: 80px;
+    padding-bottom: 10px;
 }
 
 
@@ -103,6 +105,7 @@
 .flowing p,
 .users p {
     color: var(--grayish-blue);
+
 }
 
 .grow,
@@ -123,7 +126,13 @@
     width: 50%;
 }
 
-.grow img {
+.grow img,
+.flowing img,
+.users img {
     width: 300px;
-    margin-left: 190px;
+    margin-left: 150px;
+    margin-top: -120px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
+
